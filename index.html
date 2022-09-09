@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="screen"></div>
+  <div class="buttons">
+    <div class="line">
+      <button type="button" onclick=plusMinus();>+ / -</button> 
+      <button type="button" onclick=clickOperator(this); >÷</button> 
+      <button type="button" onclick=clickOperator(this); >×</button> 
+      <button type="button" onclick=clickBtn(this); >AC</button> 
+    </div>
+    <div class="line">
+      <button type="button" onclick=clickBtn(this);>7</button> 
+      <button type="button" onclick=clickBtn(this);>8</button> 
+      <button type="button" onclick=clickBtn(this);>9</button> 
+      <button type="button" onclick=clickBtn(this)>C</button> 
+    </div>
+    <div class="line">
+      <button type="button" onclick=clickBtn(this);>4</button> 
+      <button type="button" onclick=clickBtn(this);>5</button> 
+      <button type="button" onclick=clickBtn(this);>6</button> 
+      <button type="button" onclick=clickOperator(this);>-</button>       
+    </div>
+    <div class="line">
+      <button type="button" onclick=clickBtn(this);>1</button> 
+      <button type="button" onclick=clickBtn(this);>2</button> 
+      <button type="button" onclick=clickBtn(this);>3</button> 
+      <button type="button" onclick=clickOperator(this);>+</button> 
+    </div>
+    <div class="line">
+      <button type="button" onclick=clickBtn(this); >0</button> 
+      <button type="button" onclick=clickBtn(this);>00</button> 
+      <button type="button" onclick=clickBtn(this);>.</button> 
+      <button type="button" onclick = "equalBtn();" >=</button> 
+    </div>
+  </div>
+  <script type="text/javascript" src="main.js" charset="utf-8"></script>
+</body>
+</html>
